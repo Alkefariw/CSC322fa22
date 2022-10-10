@@ -1,3 +1,16 @@
+/*/
+HTML: <canvas id="c"></canvas> <script src="https://r105.threejsfundamentals.org/threejs/resources/threejs/r105/three.min.js"></script>
+
+CSS: 
+body {
+  margin: 0;
+}
+#c {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+/*/
 function main() {
   const canvas = document.querySelector('#c');
   const renderer = new THREE.WebGLRenderer({canvas});
